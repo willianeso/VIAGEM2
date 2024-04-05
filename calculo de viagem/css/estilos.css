@@ -1,0 +1,61 @@
+body{
+    background: url('../images/carro.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    background: rgba(128, 128, 128, 0.291);
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    padding: 8px;
+    
+}
+.central input{
+    width: 150px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    background: rgb(179, 179, 179);
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+
+    
+}
+
+.central button{
+    width: 100px;
+    
+}
+
+.central #calcular{
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    padding: 8px;
+}
+
+.central #calcular:hover{
+    /* HOVER utilizado para fazer efeitos */
+    background: darkblue;
+    border-radius: 15px;
+
+}
+
+
+
